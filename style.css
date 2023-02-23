@@ -1,0 +1,112 @@
+body {
+    padding: 30px 50px;
+}
+#container {
+    display: flex;
+    justify-content: space-between;
+}
+#left, #center, #right {
+    flex: 1 1 auto;
+    text-align: center;
+}
+#left {
+    width: 20%;
+    padding: 15px;
+}
+#center {
+    width: 20%;
+}
+#right {
+    width: 20%;
+    padding: 15px;
+}
+.address {
+    font-family: Z003;
+}
+#num {
+    padding-left: 65%;
+}
+#parent1, #parent2, #parent3 {
+    display: flex;
+    justify-content: space-between;
+}
+#child11, #child12, #child21, #child22, #child31, #child32 {
+    flex: 1 1 auto;
+}
+#child12 {
+    padding-left: 250px;
+}
+#child32 {
+    padding-left: 550px;
+}
+th, td, tr {
+    border: 1px solid black;
+    margin: 0;
+    padding: 5px;
+}
+#table {
+    text-align: center;
+    justify-content: center;
+    display: flex;
+}
+#table1 {
+    border-spacing: 0;
+    border-collapse: collapse;
+    flex: 1 1 auto;
+}
+#infos {
+    text-align: center;
+}
+#parent4 {
+    font-size: small;
+}
+#parent5 {
+    font-size: small;
+    text-align: center;
+}
+#table2 {
+    border-spacing: 0;
+    border-collapse: collapse;
+}
+#table2 tr, #table2 td {
+    padding: 0 5px;
+}
+#footer {
+    width: 100%;
+}
+* {
+    background-color: white;
+}
+#block1 {
+    background-color: white;
+    width: 200px;
+    height: 40px;
+    position: absolute;
+    right: 43px;
+    top: 1372px;
+}
+#block2 {
+    background-color: white;
+    width: 400px;
+    height: 80px;
+    position: absolute;
+    right: 43px;
+    top: 1320px;
+}
+#block3 {
+    background-color: white;
+    width: 105px;
+    height: 80px;
+    position: absolute;
+    right: 43px;
+    top: 1390px;
+}
+#block4 {
+    background-color: white;
+    width: 350px;
+    height: 110px;
+    position: absolute;
+    right: 390px;
+    top: 1330px;
+    border-radius: 0 0 115px 0;
+}
